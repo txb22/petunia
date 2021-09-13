@@ -25,24 +25,14 @@
     font-size: 1.5rem;
   }
   .search1 button {
-    /* display: inline-block;
-    text-align: center;
-    border: 0;
-    background-color: #fff;
-    color: #48e29f;
-    font-size: 2rem;
-    border-radius: 0.5rem;
-    padding: 0;
-    width: auto;
-    cursor: pointer;
-    outline: none; */
     display: block;
     text-align: center;
     border-radius: 0.5rem;
     border: 0;
-    background: none;
-    color: #fff;
-    font-size: 1.5rem;
+    background: #fff;
+  }
+  .search1 button i {
+    color: #48e29f;
   }
   .nav-main {
     display: none;
