@@ -57,6 +57,9 @@ body {
   font-family: Philosopher;
   src: url(../font/Philosopher-Regular.ttf);
 }
+.search1 {
+  display: none;
+}
 .header {
   width: 100%;
   background-color: #008c4f;
