@@ -20,6 +20,7 @@
   }
   .search1 {
     padding-top: 0.5rem;
+    display: block;
   }
   .search1 button {
     /* display: inline-block;
