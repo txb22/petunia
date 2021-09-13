@@ -1203,12 +1203,13 @@ footer input {
   top: 0;
   left: 100%;
   background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
 }
 #wrapper-menu-mobile .wrapper {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #46c4d0;
+  background-color: #008c4f;
   right: -100%;
   z-index: 10;
 }
@@ -1225,6 +1226,7 @@ footer input {
   height: 100%;
   text-align: left;
   /* overflow-y: scroll; */
+  padding: 0;
 }
 #wrapper-menu-mobile ul h1 {
   margin: 0;
@@ -1239,14 +1241,14 @@ footer input {
   border: none;
 }
 #wrapper-menu-mobile ul li.first img {
-  padding-left: 20px;
-  width: 100px;
+  /* padding-left: 20px; */
+  width: 50%;
 }
 #wrapper-menu-mobile ul li a {
-  padding-left: 15px;
+  padding-left: 1rem;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -1262,8 +1264,8 @@ footer input {
   margin: 5px 0 0 10px;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  line-height: 22px;
+  font-size: 2rem;
+  line-height: 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -1282,4 +1284,25 @@ footer input {
   top: 2%;
   right: 5%;
   font-size: 30px;
+}
+.wrapper form {
+  padding: 0.5rem;
+  display: flex;
+  position: relative;
+}
+.wrapper form input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.wrapper form button {
+  position: absolute;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #008c4f;
+}
+.wrapper form input::placeholder {
+  color: #049053;
 }

@@ -15,11 +15,34 @@
     padding-top: 2rem;
     line-height: 1.5;
   }
+  .header-top {
+    display: flex;
+  }
+  .search1 {
+    padding-top: 0.5rem;
+  }
+  .search1 button {
+    /* display: inline-block;
+    text-align: center;
+    border: 0;
+    background-color: #fff;
+    color: #48e29f;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    padding: 0;
+    width: auto;
+    cursor: pointer;
+    outline: none; */
+    display: block;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 0;
+  }
   .nav-main {
     display: none;
   }
   .header img {
-    width: 50%;
+    width: 60%;
     padding: 0.5rem;
   }
   .uu-diem {
