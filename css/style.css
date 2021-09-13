@@ -60,6 +60,11 @@ body {
 .search1 {
   display: none;
 }
+@media (max-width: 991px) {
+  .search1 {
+    display: block;
+  }
+}
 .header {
   width: 100%;
   background-color: #008c4f;
