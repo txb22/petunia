@@ -68,6 +68,10 @@
   }
   .khach-hang h3 {
     font-size: 1rem;
+    margin: 0;
+  }
+  .khach-hang h3 a {
+    font-size: 1.25rem;
   }
   .khach-hang p {
     font-size: 0.8rem;
