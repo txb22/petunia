@@ -686,7 +686,7 @@ body {
 .quy-trinh .new-right {
   max-height: 25rem;
   overflow-y: scroll;
-  padding: 3rem 2rem 3rem 0;
+  padding: 0.5rem 2rem 3rem 0;
 }
 .new-right h4 {
   display: inline;
@@ -775,6 +775,9 @@ body {
   margin: 0;
   color: #008c4f;
   padding-bottom: 0.25rem;
+}
+.box-baochi .box-content img {
+  margin-right: 0.5rem;
 }
 .box-baochi .box-content .time {
   font-family: Open Sans;

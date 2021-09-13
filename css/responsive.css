@@ -63,6 +63,9 @@
   .khach-hang {
     padding-bottom: 1rem;
   }
+  .khach-hang h2 {
+    padding-bottom: 1rem;
+  }
   .khach-hang h3 {
     font-size: 1rem;
   }
@@ -144,6 +147,10 @@
   .chia-se .box-text::after {
     left: 1.3rem;
   }
+  .quy-trinh .new-right {
+    margin-top: 1rem;
+    max-height: 15rem;
+  }
   .chia-se span,
   .chia-se p {
     font-size: 0.8rem;
@@ -186,11 +193,14 @@
     margin: 0;
     margin-bottom: 2rem;
   }
-  .box-baochi .c-image img {
+  .box-baochi img {
     width: 100%;
   }
   .box-baochi .box-content {
     position: initial;
+  }
+  .box-baochi .box-content img {
+    width: auto;
   }
   .vi-sao h2 {
     padding-top: 0;
@@ -264,5 +274,10 @@
   }
   footer {
     padding: 2rem 0 1rem 0;
+  }
+}
+@media (min-width: 700px) and(max-width:1024px) {
+  .quy-trinh .new-right {
+    max-height: 15rem;
   }
 }
