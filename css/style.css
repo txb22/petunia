@@ -756,7 +756,7 @@ body {
   background: #fff;
   padding: 1rem;
 }
-.box-baochi .box-content h4 {
+.box-baochi .box-content h4 a {
   font-family: UTM Neo Sans Intel;
   font-style: normal;
   font-weight: bold;

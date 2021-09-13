@@ -18,6 +18,14 @@ var swiper = new Swiper(".mySlide", {
     }
 });
 
+var btn = $('#button');
+
+
+btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+});
+
 /*menu mobile*/
 jQuery(document).ready(
     function () {
