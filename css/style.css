@@ -60,15 +60,11 @@ body {
 .search1 {
   display: none;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .search1 {
     display: block;
   }
-  .search1 button i {
-    background: #fff;
-    color: #008c4f;
-  }
-}
+} */
 .header {
   width: 100%;
   background-color: #008c4f;
@@ -1311,7 +1307,7 @@ footer input {
 }
 .wrapper form button {
   position: absolute;
-  right: 1rem;
+  right: 0.5rem;
   font-size: 1.5rem;
   color: #008c4f;
 }

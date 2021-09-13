@@ -29,10 +29,11 @@
     text-align: center;
     border-radius: 0.5rem;
     border: 0;
-    background: #fff;
+    background: none;
   }
   .search1 button i {
-    color: #008c4f;
+    color: #fff;
+    font-size: 2rem;
   }
   .nav-main {
     display: none;
