@@ -1,0 +1,236 @@
+@media (max-width: 991px) {
+  .uu-diem h2,
+  .khach-hang h2,
+  .bac-sy h2,
+  .lao-hoa h2,
+  .cong-nghe h2,
+  .hieu-qua h2,
+  .video h2,
+  .chia-se h2,
+  .nen-lam h2,
+  .quy-trinh h2,
+  .bao-chi h2,
+  .vi-sao h2 {
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    line-height: 1.5;
+  }
+  .nav-main {
+    display: none;
+  }
+  .header img {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .uu-diem {
+    display: block;
+  }
+  .box-ud {
+    display: block;
+  }
+  .box-ud img {
+    display: none;
+  }
+  .box-ud span {
+    font-size: 1rem;
+  }
+  .box-ud ul {
+    padding: 0;
+  }
+  .box-ud .sau li {
+    text-align: right;
+  }
+  .khach-hang {
+    padding-bottom: 1rem;
+  }
+  .khach-hang h3 {
+    font-size: 1rem;
+  }
+  .khach-hang p {
+    font-size: 0.8rem;
+  }
+  .khach-hang::before,
+  .khach-hang::after {
+    display: none;
+  }
+  .bac-sy h3,
+  .chia-se h3,
+  .nen-lam h3 {
+    font-size: 3rem;
+  }
+  .text-silde .title {
+    font-size: 1rem;
+  }
+  .text-silde {
+    padding: 2rem 3rem;
+  }
+  .text {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .bac-sy form {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .lao-hoa::before,
+  .lao-hoa::after {
+    display: none;
+  }
+  .bac-sy form input {
+    padding: 0.5rem;
+  }
+  .bac-sy form button {
+    padding: 0.5rem 1.188rem;
+    margin-top: 1rem;
+  }
+  .box-lao-hoa::before {
+    left: 35%;
+    bottom: -2rem;
+  }
+  .lao-hoa {
+    padding-bottom: 2rem;
+  }
+  .lao-hoa p {
+    padding-top: 2rem;
+    font-size: 1rem;
+  }
+  .cong-nghe {
+    padding-bottom: 1rem;
+  }
+  .cong-nghe p {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+  }
+  .video h2 {
+    padding-bottom: 2rem;
+  }
+  .chia-se .box-text {
+    padding: 2rem 1rem 2rem 2.5rem;
+  }
+  .chia-se .box-text h4 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .chia-se .box-text::after {
+    left: 1.3rem;
+  }
+  .chia-se span,
+  .chia-se p {
+    font-size: 0.8rem;
+  }
+  .box-chia-se::before {
+    display: none;
+  }
+  .box-chia-se h4 {
+    margin: 0;
+    padding-top: 0;
+    font-size: 1rem;
+  }
+  .nen-lam::before,
+  .nen-lam::after {
+    display: none;
+  }
+  .nen-lam p {
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+  .nen-lam .box::before {
+    bottom: -2rem;
+    left: 36%;
+  }
+  .quy-trinh h3,
+  .vi-sao h3 {
+    font-size: 2rem;
+  }
+  .bao-chi::before,
+  .bao-chi::after {
+    display: none;
+  }
+  .bao-chi {
+    padding-bottom: 2rem;
+  }
+  .bao-chi h2 {
+    padding-bottom: 1rem;
+  }
+  .box-baochi {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .box-baochi .c-image img {
+    width: 100%;
+  }
+  .box-baochi .box-content {
+    position: initial;
+  }
+  .vi-sao h2 {
+    padding-top: 0;
+  }
+  .vi-sao p {
+    font-size: 0.75rem;
+  }
+  .form-dk .form {
+    position: initial;
+  }
+  .form form {
+    padding: 1rem;
+  }
+  .form h3 {
+    font-size: 1.5rem;
+  }
+  .form h4 {
+    font-size: 0.75rem;
+  }
+  .form span {
+    font-size: 1.5em;
+  }
+  .form form input {
+    padding: 0.5rem;
+  }
+  .form form input::placeholder {
+    font-size: 0.75rem;
+  }
+  .form form button {
+    padding: 0.5rem 1.188rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .form-dk .c-image img {
+    width: 100%;
+  }
+  .form-dk {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .lien-he {
+    position: initial;
+    padding-top: 2rem;
+  }
+  .lienhe-box .box1 h3 {
+    font-size: 1.25rem;
+  }
+  .box1 {
+    padding: 1rem;
+  }
+  .lienhe-box .box1 p {
+    font-size: 0.75rem;
+  }
+  .top-block,
+  .bottom-block {
+    padding: 0;
+  }
+  .item {
+    border-bottom: 1px solid #48e29f;
+    padding: 1rem 0;
+  }
+  footer .title {
+    text-align: left;
+  }
+  footer ul li a,
+  .text {
+    text-align: left;
+  }
+  footer {
+    padding: 2rem 0 1rem 0;
+  }
+}
