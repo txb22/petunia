@@ -23,6 +23,7 @@
     display: block;
     color: #fff;
     font-size: 1.5rem;
+    background: #fff;
   }
   .search1 button {
     display: block;
@@ -32,7 +33,7 @@
     background: #fff;
   }
   .search1 button i {
-    color: #48e29f;
+    color: #008c4f;
   }
   .nav-main {
     display: none;
