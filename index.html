@@ -9,69 +9,73 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="js/script.js">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <title>Document</title>
-
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="col-md-2">
-                <div class="header-top">
-                    <a href="">
-                        <img src="images/Untitled-2 1.png" alt="">
-                    </a>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-2 col-lg-2 col-10">
+                    <div class="header-top">
+                        <a href="">
+                            <img src="images/Untitled-2 1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8 col-2 px-lg-0">
                     <div class="search1">
                         <button id="bt-menu-mobile" class="bar-menu"><i class="far fa-bars"></i></button>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-10">
-
-                <div class="menu-main">
-                    <ul class="nav-main">
-                        <li><a href="">Ưu điểm</a></li>
-                        <li><a href="">Dấu hiệu lão hóa da</a></li>
-                        <li><a href="">USP công nghệ</a></li>
-                        <li><a href="">Quy trình</a></li>
-                        <li><button>Yêu cầu tư vấn</button></li>
-                    </ul>
-                </div>
-                <div id="wrapper-menu-mobile">
-                    <div class="wrapper">
-                        <ul>
-                            <li class="first">
-                                <a href="">
-                                    <img src="images/Untitled-2 1.png" alt="">
-                                </a>
-                                <button id="bt-fechar-menu"><i class="fas fa-times"></i></button>
-                                <div class="clear"></div>
-                            </li>
-                            <li>
-                                <form id="search-field" class="search-field1" action="">
-                                    <input id="input-cl" type="text" placeholder="Tìm kiếm...">
-                                    <button><i class="fa fa-search"></i></button>
-                                </form>
-                            </li>
+                    <div class="menu-main">
+                        <ul class="nav-main">
                             <li><a href="">Ưu điểm</a></li>
                             <li><a href="">Dấu hiệu lão hóa da</a></li>
                             <li><a href="">USP công nghệ</a></li>
                             <li><a href="">Quy trình</a></li>
                         </ul>
                     </div>
-                    <div class="block-menu-mobile"></div>
+                    <div id="wrapper-menu-mobile">
+                        <div class="wrapper">
+                            <ul>
+                                <li class="first">
+                                    <a href="">
+                                        <img src="images/Untitled-2 1.png" alt="">
+                                    </a>
+                                    <button id="bt-fechar-menu"><i class="fas fa-times"></i></button>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <form id="search-field" class="search-field1" action="">
+                                        <input id="input-cl" type="text" placeholder="Tìm kiếm...">
+                                        <button><i class="fa fa-search"></i></button>
+                                    </form>
+                                </li>
+                                <li><a href="">Ưu điểm</a></li>
+                                <li><a href="">Dấu hiệu lão hóa da</a></li>
+                                <li><a href="">USP công nghệ</a></li>
+                                <li><a href="">Quy trình</a></li>
+                            </ul>
+                        </div>
+                        <div class="block-menu-mobile"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="btn-top">
+                        <button>Yêu cầu tư vấn</button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <section class="banner">
+    <section class="slider">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -92,71 +96,49 @@
             </div>
         </div>
     </section>
-    <section class="uu-diem">
-        <h2>Ưu điểm công nghệ</h2>
-        <div class="container">
-            <div class="box-ud">
-                <div class="truoc">
-                    <ul>
-                        <span>Trước</span>
-                        <li class="ud">Nhiều vết nhăn, châm chim</li>
-                        <li class="ud">Râu rồng dài và sâu</li>
-                        <li class="ud">Da nhăn nheo, má chảy sệ</li>
-                    </ul>
-                </div>
+    <!-- <section class="uu-diem">
 
-                <img src="images/Group 1611.png" alt="">
-                <div class="sau">
-                    <ul>
-                        <span>Sau</span>
-                        <li class="ud">Xóa sạch mọi vết nhăn</li>
-                        <li class="ud">Da căng, râu rồng biến mất</li>
-                        <li class="ud">Khuôn mặt thon gọn</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section> -->
     <section class="khach-hang">
-        <h2>
+        <p class="title-section">
             Sự thay đổi của khách hàng
-        </h2>
+        </p>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-6">
                     <div class="box">
                         <a href=""><img src="images/Group 2719.png" alt=""></a>
-                        <h3>
-                            <a href="">Kh. Thanh tâm</a>
-                        </h3>
-                        <p>Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
+                        <div>
+                            <a href="" class="text-kh">Kh. Thanh tâm</a>
+                        </div>
+                        <p class="text-content">Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-6">
                     <div class="box">
                         <a href=""><img src="images/Group 2719.png" alt=""></a>
-                        <h3>
-                            <a href="">Kh. Thanh tâm</a>
-                        </h3>
-                        <p>Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
+                        <div>
+                            <a href="" class="text-kh">Kh. Thanh tâm</a>
+                        </div>
+                        <p class="text-content">Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-6">
                     <div class="box">
                         <a href=""><img src="images/Group 2719.png" alt=""></a>
-                        <h3>
-                            <a href="">Kh. Thanh tâm</a>
-                        </h3>
-                        <p>Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
+                        <div>
+                            <a href="" class="text-kh">Kh. Thanh tâm</a>
+                        </div>
+                        <p class="text-content">Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-6 col-6">
                     <div class="box">
                         <a href=""><img src="images/Group 2719.png" alt=""></a>
-                        <h3>
-                            <a href="">Kh. Thanh tâm</a>
-                        </h3>
-                        <p>Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
+                        <div>
+                            <a href="" class="text-kh">Kh. Thanh tâm</a>
+                        </div>
+                        <p class="text-content">Xóa nếp nhăn khóe miệng. Da bóng khỏe <br> ngay sau buổi đầu</p>
                     </div>
                 </div>
             </div>
@@ -165,19 +147,19 @@
     <section class="bac-sy">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <h2>
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <p class="title-section">
                         Bác sỹ hàng đầu
-                    </h2>
-                    <h3>
+                    </p>
+                    <p class="title-section2">
                         Thấu hiểu tận tâm
-                    </h3>
-                    <div class="swiper mySwiper">
+                    </p>
+                    <div class="swiper mySwiper slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="text-silde">
-                                    <p class="title">
-                                        <a href="">CHUYÊN GIA MICHAEL BYERS</a>
+                                    <p>
+                                        <a href="" class="title-slider">CHUYÊN GIA MICHAEL BYERS</a>
                                     </p>
                                     <p class="text">Thành viên Hiệp hội Y học và Laser Hoa Kỳ (ASLMS) Chuyên gia hàng
                                         đầu về công
@@ -186,8 +168,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="text-silde">
-                                    <p class="title">
-                                        <a href="">CHUYÊN GIA MICHAEL BYERS</a>
+                                    <p>
+                                        <a href="" class="title-slider">CHUYÊN GIA MICHAEL BYERS</a>
                                     </p>
                                     <p class="text">Thành viên Hiệp hội Y học và Laser Hoa Kỳ (ASLMS) Chuyên gia hàng
                                         đầu về công
@@ -196,8 +178,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="text-silde">
-                                    <p class="title">
-                                        <a href="">CHUYÊN GIA MICHAEL BYERS</a>
+                                    <p>
+                                        <a href="" class="title-slider">CHUYÊN GIA MICHAEL BYERS</a>
                                     </p>
                                     <p class="text">Thành viên Hiệp hội Y học và Laser Hoa Kỳ (ASLMS) Chuyên gia hàng
                                         đầu về công
@@ -206,74 +188,90 @@
                             </div>
                         </div>
                         <!-- <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div> -->
+                                                        <div class="swiper-button-prev"></div> -->
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <form action="">
-                        <h3>NHẬN TƯ VẤN MIỄN PHÍ TỪ BÁC SĨ QUA ĐIỆN THOẠI</h3>
-                        <input type="text" placeholder="Nhập tên của bạn">
-                        <input type="text" placeholder="Số điện thoại">
-                        <input type="text" placeholder="Tình trạng da ">
-                        <button type="submit">Gửi thông tin</button>
-                    </form>
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <div class="form-doctor">
+                        <form action="">
+                            <p class="title-doctor">NHẬN TƯ VẤN MIỄN PHÍ TỪ BÁC SĨ QUA ĐIỆN THOẠI</p>
+                            <input type="text" placeholder="Nhập tên của bạn">
+                            <input type="text" placeholder="Số điện thoại">
+                            <input type="text" placeholder="Tình trạng da ">
+                            <button type="submit">Gửi thông tin</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="lao-hoa">
-        <h2>Dấu hiệu lão hóa da</h2>
+        <p class="title-section">
+            Dấu hiệu lão hóa da
+        </p>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="box-lao-hoa">
-                        <a href="">
-                            <img src="images/image 673.png" alt="">
-                        </a>
+            <div class="row gx-3">
+                <div class="col-lg-3 col-6">
+                    <div class="box-laohoa">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/image 673.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text-laohoa">Da nhăn nheo, nhiều nếp gấp</p>
                     </div>
-                    <p>Da nhăn nheo, nhiều nếp gấp</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="box-lao-hoa">
-                        <a href="">
-                            <img src="images/image 675.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-laohoa">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/image 673.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text-laohoa">Da nhăn nheo, nhiều nếp gấp</p>
                     </div>
-                    <p>Da trùng nhão, chảy xệ</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="box-lao-hoa">
-                        <a href="">
-                            <img src="images/image 677.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-laohoa">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/image 673.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text-laohoa">Da nhăn nheo, nhiều nếp gấp</p>
                     </div>
-                    <p>Vết chân chim ở mắt, rãnh cười sâu</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="box-lao-hoa">
-                        <a href="">
-                            <img src="images/image 678.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-laohoa">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/image 673.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text-laohoa">Da nhăn nheo, nhiều nếp gấp</p>
                     </div>
-                    <p>Lỗ chân lông to, da xỉn màu</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="cong-nghe">
         <div class="container">
-            <h2>TỎA SÁNG VỚI DOUBLE COLLAGEN - <br>CÔNG NGHỆ TRẺ HÓA HÀNG ĐẦU THẾ GIỚI</h2>
-            <p>Đỉnh cao trẻ hóa không xâm lấn <span>số 1 toàn cầu</span></p>
-            <p>Kết hợp đột phá từ 2 công nghệ <span>Biomatrix Collagen là Matrixcol & Matrixgel</span></p>
-            <p>Áp dụng công thức sinh học đột phá nhằm tái tạo và sản sinh tế bào da</p>
-            <p>Bổ sung collagen hiệu quả <span>gấp 5 lần</span> collagen uống, gấp 15 lần mặt nạ collagen thông thường
-            </p>
-            <p>1 lần thực hiện = <span>30 ngày</span> đắp mặt nạ collagen tươi</p>
+            <p class="title-section">TỎA SÁNG VỚI DOUBLE COLLAGEN - <br>CÔNG NGHỆ TRẺ HÓA HÀNG ĐẦU THẾ GIỚI</p>
+            <div class="box-cong-nghe">
+                <p class="text">Đỉnh cao trẻ hóa không xâm lấn <span>số 1 toàn cầu</span></p>
+                <p class="text">Kết hợp đột phá từ 2 công nghệ <span>Biomatrix Collagen là Matrixcol & Matrixgel</span>
+                </p>
+                <p class="text">Áp dụng công thức sinh học đột phá nhằm tái tạo và sản sinh tế bào da</p>
+                <p class="text">Bổ sung collagen hiệu quả <span>gấp 5 lần</span> collagen uống, gấp 15 lần mặt nạ
+                    collagen
+                    thông thường
+                </p>
+                <p class="text">1 lần thực hiện = <span>30 ngày</span> đắp mặt nạ collagen tươi</p>
+            </div>
         </div>
     </section>
-
     <section class="video">
-        <h2>Video giới thiệu công nghệ</h2>
+        <p class="title-section">Video giới thiệu công nghệ</p>
         <div class="container">
             <div class="swiper mySlide">
                 <div class="swiper-wrapper">
@@ -293,200 +291,237 @@
             </div>
     </section>
     <section class="chia-se">
+        <p class="title-section">Chia sẻ của khách hàng sau liệu trình</p>
+        <p class="title-section2">Vực dậy niềm tin</p>
         <div class="container">
-            <h2>Chia sẻ của khách hàng sau liệu trình</h2>
-            <h3>Vực dậy niềm tin</h3>
-            <div class="row no-gutter">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="row no-gutter">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="box-text">
-                                <h4>
-                                    <a href="">Chị hoài thanh</a>
-                                </h4>
-                                <span>36 tuổi</span>
-                                <p>Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật mang</p>
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="box-chiase">
+                                <p>
+                                    <a href="" class="title-chiase">Chị hoài thanh</a>
+                                </p>
+                                <span class="age">36 tuổi</span>
+                                <p class="text">Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật
+                                    mang</p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <a href="">
-                                <img src="images/Group 2804.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row no-gutter">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <a href="">
-                                <img src="images/Group 2805.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="box-text box">
-                                <h4>
-                                    <a href="">Chị hoài thanh</a>
-                                </h4>
-                                <span>36 tuổi</span>
-                                <p>Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật mang</p>
+                        <div class="col-lg-6 col-6">
+                            <div class="box-img">
+                                <a href="">
+                                    <img src="images/Group 2804.png" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-gutter">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="box-text">
-                                <h4>
-                                    <a href="">Chị hoài thanh</a>
-                                </h4>
-                                <span>36 tuổi</span>
-                                <p>Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật mang</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="box-img">
+                                <a href="">
+                                    <img src="images/Group 2805.png" alt="">
+                                </a>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <a href="">
-                                <img src="images/Group 2807.png" alt="">
-                            </a>
+                        <div class="col-lg-6 col-6">
+                            <div class="box-chiase box">
+                                <p>
+                                    <a href="" class="title-chiase">Chị hoài thanh</a>
+                                </p>
+                                <span class="age">36 tuổi</span>
+                                <p class="text">Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật
+                                    mang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="box-chiase">
+                                <p>
+                                    <a href="" class="title-chiase">Chị hoài thanh</a>
+                                </p>
+                                <span class="age">36 tuổi</span>
+                                <p class="text">Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật
+                                    mang</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="box-img">
+                                <a href="">
+                                    <img src="images/Group 2804.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="box-chia-se">
+                <div class="col-lg-6">
+                    <div class="box-chiase2">
                         <a href="">
                             <img src="images/beautiful-young-asian-woman-touching-her-clean-face-with-fresh-healthy-skin-isolated-white-wall 1.png"
                                 alt="">
                         </a>
-                        <h4>
-                            <a href="">Chị hoài thanh</a>
-                        </h4>
-                        <span>36 tuổi</span>
-                        <p>Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật mang</p>
+                        <div class="text-box">
+                            <p>
+                                <a href="" class="title">Chị hoài thanh</a>
+                            </p>
+                            <span class="age">36 tuổi</span>
+                            <p class="text">Chữa nám laser 1 đồng thời chữa da cháy hết 4 đồng. Đúng là tiền mất tật
+                                mang
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="nen-lam">
+        <p class="title-section">Các trường hợp nên làm</p>
+        <p class="title-section2">trẻ hóa double collagen</p>
         <div class="container">
-            <h2>Các trường hợp nên làm</h2>
-            <h3>trẻ hóa double collagen</h3>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="" class="c-image">
-                            <img src="images/Mask Group11.png" alt="">
-                        </a>
+            <div class="row gx-3">
+                <div class="col-lg-4 col-6">
+                    <div class="box-nenlam">
+                        <div class="box">
+                            <a href="" class="c-image">
+                                <img src="images/Mask Group11.png" alt="">
+                            </a>
+                        </div>
+                        <p class="text">Da thiếu sức sống, khô ráp, thâm sạm, tối màu</p>
                     </div>
-                    <p>Da thiếu sức sống, khô ráp, thâm sạm, tối màu</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="" class="c-image">
-                            <img src="images/Mask Group (9).png" alt="">
-                        </a>
+                <div class="col-lg-4 col-6">
+                    <div class="box-nenlam">
+                        <div class="box">
+                            <a href="" class="c-image">
+                                <img src="images/Mask Group (9).png" alt="">
+                            </a>
+                        </div>
+                        <p class="text">Da thiếu sức sống, khô ráp, thâm sạm, tối màu</p>
                     </div>
-                    <p>Da xuất hiện lão hóa với nhiều nếp nhăn trên trán, rãnh cười, vết chân chim, da chùng nhão, chảy
-                        xệ</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="" class="c-image">
-                            <img src="images/Mask Group (10).png" alt="">
-                        </a>
+                <div class="col-lg-4 col-12">
+                    <div class="box-nenlam">
+                        <div class="box box2">
+                            <a href="" class="c-image">
+                                <img src="images/Mask Group (10).png" alt="">
+                            </a>
+                        </div>
+                        <p class="text">Da thiếu sức sống, khô ráp, thâm sạm, tối màu</p>
                     </div>
-                    <p>Da thiếu dưỡng chất, đặc biệt là thiếu hụt collagen</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="quy-trinh">
+        <p class="title-section">Quy trình thực hiện</p>
+        <p class="title-section2">8 bước tạo nên sự hoàn hảo</p>
         <div class="container">
-            <h2>Quy trình thực hiện</h2>
-            <h3>8 bước tạo nên sự hoàn hảo</h3>
             <div class="row">
-                <div class="col-md-7 col-sm-6 col-xs-12">
-                    <a href="">
-                        <img src="images/Rectangle 3742.png" alt="">
-                    </a>
+                <div class="col-lg-7 col-sm-7 col-12">
+                    <div class="box-img">
+                        <a href="">
+                            <img src="images/Rectangle 3742.png" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-5 col-sm-6 col-xs-12">
+                <div class="col-lg-5 col-sm-5 col-12">
                     <div class="new-right scrollstyle1">
-                        <div class="text">
-                            <h4>01</h4>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">01</p>
                             <p>
-                                <a href="">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
                             </p>
                         </div>
-                        <div class="text">
-                            <h4>01</h4>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">02</p>
                             <p>
-                                <a href="">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
                             </p>
                         </div>
-                        <div class="text">
-                            <h4>01</h4>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">03</p>
                             <p>
-                                <a href="">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
                             </p>
                         </div>
-                        <div class="text">
-                            <h4>01</h4>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">04</p>
                             <p>
-                                <a href="">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
                             </p>
                         </div>
-                        <div class="text">
-                            <h4>01</h4>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">05</p>
                             <p>
-                                <a href="">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                            </p>
+                        </div>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">06</p>
+                            <p>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
+                            </p>
+                        </div>
+                        <div class="text-quy-trinh">
+                            <p class="title-box">07</p>
+                            <p>
+                                <a href="" class="text">Kiểm tra tình trạng, các chỉ số da với bác sĩ</a>
                             </p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
     <section class="bao-chi">
+        <p class="title-section">Báo chí nói về double collagen</p>
         <div class="container">
-            <h2>Báo chí nói về double collagen</h2>
-            <div class="row  gx-lg-4 gx-3 gy-lg-4 gy-3">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="box-baochi">
-                        <a href="">
-                            <img src="images/Rectangle 3163.jpg" alt="">
-                        </a>
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/Rectangle 3163.jpg" alt="">
+                            </a>
+                        </div>
                         <div class="box-content">
-                            <h4>
-                                <a href="">Lorem Ipsum is simply dummy text</a>
-                            </h4>
+                            <p>
+                                <a href="" class="title-baochi">Lorem Ipsum is simply dummy text</a>
+                            </p>
                             <div class="time">20/03/2021</div>
                             <p>Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC </p>
                             <a href=""><img src="images/image 605.png" alt="">Theo báo Dân trí</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="box-baochi">
-                        <a href="">
-                            <img src="images/Rectangle 3207.jpg" alt="">
-                        </a>
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/Rectangle 3163.jpg" alt="">
+                            </a>
+                        </div>
                         <div class="box-content">
-                            <h4>
-                                <a href="">Lorem Ipsum is simply dummy text</a>
-                            </h4>
+                            <p>
+                                <a href="" class="title-baochi">Lorem Ipsum is simply dummy text</a>
+                            </p>
                             <div class="time">20/03/2021</div>
                             <p>Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC </p>
                             <a href=""><img src="images/image 605.png" alt="">Theo báo Dân trí</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-12">
                     <div class="box-baochi">
-                        <a href="">
-                            <img src="images/Rectangle 3209.jpg" alt="">
-                        </a>
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/Rectangle 3163.jpg" alt="">
+                            </a>
+                        </div>
                         <div class="box-content">
-                            <h4>
-                                <a href="">Lorem Ipsum is simply dummy text</a>
-                            </h4>
+                            <p>
+                                <a href="" class="title-baochi">Lorem Ipsum is simply dummy text</a>
+                            </p>
                             <div class="time">20/03/2021</div>
                             <p>Section 1.10.33 of “de Finibus Bonorum et Malorum”, written by Cicero in 45 BC </p>
                             <a href=""><img src="images/image 605.png" alt="">Theo báo Dân trí</a>
@@ -497,63 +532,72 @@
         </div>
     </section>
     <section class="vi-sao">
+        <p class="title-section2">Vì sao</p>
+        <p class="title-section">Lựa chọn chúng tôi</p>
         <div class="container">
-            <h3>Vì sao</h3>
-            <h2>Lựa chọn chúng tôi</h2>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="box-img">
-                        <a href="">
-                            <img src="images/huyc.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-visao">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/huyc.png" alt="">
+                            </a>
 
+                        </div>
+                        <p class="text">Cơ sở vật chất hiện đại, kỹ thuật cao</p>
                     </div>
-                    <p>Cơ sở vật chất hiện đại, kỹ thuật cao</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="box-img">
-                        <a href="">
-                            <img src="images/nen.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-visao">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/huyc.png" alt="">
+                            </a>
 
+                        </div>
+                        <p class="text">Cơ sở vật chất hiện đại, kỹ thuật cao</p>
                     </div>
-                    <p>Không gia thư giãn đạt chuẩn châu Âu</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="box-img">
-                        <a href="">
-                            <img src="images/doctor.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-visao">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/huyc.png" alt="">
+                            </a>
 
+                        </div>
+                        <p class="text">Cơ sở vật chất hiện đại, kỹ thuật cao</p>
                     </div>
-                    <p>Đội ngũ bác sĩ giàu kinh nghiệm, kỹ thuật viên tay nghề cao</p>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <div class="box-img">
-                        <a href="">
-                            <img src="images/mat.png" alt="">
-                        </a>
+                <div class="col-lg-3 col-6">
+                    <div class="box-visao">
+                        <div class="box-img">
+                            <a href="">
+                                <img src="images/huyc.png" alt="">
+                            </a>
 
+                        </div>
+                        <p class="text">Cơ sở vật chất hiện đại, kỹ thuật cao</p>
                     </div>
-                    <p>Dẫn đầu các công nghệ chăm sóc và điều trị da sinh học trong làm đẹp</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="form-dk">
-        <!-- <img src="images/Mask Group222.png" alt=""> -->
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <a href="" class="c-image"><img
-                            src="images/beautiful-young-asian-woman-with-clean-fresh-skin (1) 1.png" alt="">
-                    </a>
+                <div class="col-lg-6 ">
+                    <div class="box-img">
+                        <a href="" class="c-image"><img
+                                src="images/beautiful-young-asian-woman-with-clean-fresh-skin (1) 1.png" alt="">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form">
                         <form action="">
-                            <h3>NHẬN TƯ VẤN MIỄN PHÍ</h3>
-                            <h4>Siêu ưu đãi chỉ <span>699k</span>/buổi</h4>
+                            <p class="title">NHẬN TƯ VẤN MIỄN PHÍ</p>
+                            <p class="sale">Siêu ưu đãi chỉ <span>699k</span>/buổi</p>
                             <input type="text" placeholder="Nhập tên của bạn">
                             <input type="text" placeholder="Số điện thoại">
                             <input type="text" placeholder="Tình trạng da ">
@@ -563,12 +607,11 @@
                 </div>
             </div>
         </div>
-
         <section class="lien-he">
             <div class="container">
                 <div class="lienhe-box">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="col-lg-4">
                             <div class="box1">
                                 <h3>Liên hệ</h3>
                                 <p>Hãy đến và ghé thăm spa của chúng t ôi hoặc chỉ cần gửi email cho chúng tôi bất cứ
@@ -578,61 +621,117 @@
                                     xin vui lòng liên hệ với chúng tôi.</p>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="col-lg-8">
                             <div class="map">
                                 <div class="top-block">
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-6 col-xs-12">
-                                            <div class="item">
-                                                <p class="name-icon">
-                                                    Petunia Vũ Trọng Phụng
-                                                </p>
-                                                <a href="">126 Vũ Trọng Phụng, Thanh Xuân, Hà Nội</a>
+                                    <div class="swiper mySlideMap">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="item">
+                                                    <a class="name-icon">
+                                                        Cơ sở 1
+                                                    </a>
+                                                    <p class="text">Số 34 ngõ 47 Lưu Hữu Phước, Mỹ Đình, HN</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-6 col-xs-12">
-                                            <div class="item">
-                                                <p class="name-icon">
-                                                    Petunia Lưu Hữu Phước
-                                                </p>
-                                                <a href="">Số 34 ngõ 47 Lưu Hữu Phước, Mỹ Đình, HN</a>
+                                            <div class="swiper-slide">
+                                                <div class="item">
+                                                    <a class="name-icon">
+                                                        Cơ sở 2
+                                                    </a>
+                                                    <p class="text">Số 126 Vũ Trọng Phụng, Thanh Xuân, HN</p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item">
+                                                    <a class="name-icon">
+                                                        Cơ sở 3
+                                                    </a>
+                                                    <p class="text">Tầng 14, Tòa nhà Viwaseen 48 Tố Hữu, Nam Từ Liêm, HN
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item">
+                                                    <a class="name-icon">
+                                                        Cơ sở 1
+                                                    </a>
+                                                    <p class="text">Số 34 ngõ 47 Lưu Hữu Phước, Mỹ Đình, HN</p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item">
+                                                    <a class="name-icon">
+                                                        Cơ sở 2
+                                                    </a>
+                                                    <p class="text">Số 126 Vũ Trọng Phụng, Thanh Xuân, HN</p>
+                                                </div>
                                             </div>
 
                                         </div>
-                                        <div class="col-md-4 col-sm-6 col-xs-12">
-                                            <div class="item">
-                                                <p class="name-icon">
-                                                    Petunia Tố Hữu
-                                                </p>
-                                                <a href="">Tầng 14, Tòa nhà Viwaseen 48 Tố Hữu, Nam Từ Liêm, HN</a>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                    <div class="top-mobile">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-12">
+                                                <div class="item">
+                                                    <div class="box-icon">
+                                                        <p class="name-icon">
+                                                            Petunia Vũ Trọng Phụng
+                                                        </p>
+                                                    </div>
+                                                    <a href="">126 Vũ Trọng Phụng, Thanh Xuân, Hà Nội</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-12">
+                                                <div class="item">
+                                                    <div class="box-icon">
+                                                        <p class="name-icon">
+                                                            Petunia Lưu Hữu Phước
+                                                        </p>
+                                                    </div>
+                                                    <a href="">Số 34 ngõ 47 Lưu Hữu Phước, Mỹ Đình, HN</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="item">
+                                                    <div class="box-icon">
+                                                        <p class="name-icon">
+                                                            Petunia Tố Hữu
+                                                        </p>
+                                                    </div>
+                                                    <a href="">Tầng 14, Tòa nhà Viwaseen 48 Tố Hữu, Nam Từ Liêm, HN</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="bottom-block">
                                     <div class="row">
-                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="col-lg-4 col-4">
                                             <div class="item">
-                                                <p class="name-icon">
+                                                <a class="name-icon email">
                                                     Email
-                                                </p>
-                                                <a href="">info@petunia.vn</a>
+                                                </a>
+                                                <p class="text">petunia@gmail.com</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="col-lg-4 col-4">
                                             <div class="item">
-                                                <p class="name-icon">
+                                                <a class="name-icon hotline">
                                                     Hotline
-                                                </p>
-                                                <a href="">1900 63 61 69</a>
+                                                </a>
+                                                <p class="text">01234567890</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="col-lg-4 col-4">
                                             <div class="item">
-                                                <p class="name-icon">
+                                                <a class="name-icon web">
                                                     Website
-                                                </p>
-                                                <a href="">petunia.vn</a>
+                                                </a>
+                                                <p class="text">petunia.com.vn</p>
                                             </div>
                                         </div>
                                     </div>
@@ -644,13 +743,12 @@
             </div>
         </section>
     </section>
-
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="col-lg-6 col-6">
                             <div class="title title-link">Link nhanh</div>
                             <ul class="menu-link">
                                 <li><a href="">Trị hôi và rụng tóc</a></li>
@@ -659,7 +757,7 @@
                                 <li><a href="">Kiến thức làm đẹp</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="col-lg-6 col-6">
                             <div class="title-right">
                                 <div class="title title-dich-vu">Dịch vụ</div>
                                 <ul class="menu-dich-vu">
@@ -673,20 +771,22 @@
                         <div class="col-12"></div>
                     </div>
                 </div>
-                <div class=" col-md-4 col-sm-6 col-xs-12 col-12 col-sm-6 col-xs-12">
-                    <a href="" class="logo-f">
-                        <img src="images/image 541 1.png" alt="">
-                    </a>
-                    <div class="text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna
-                        Lorem ipsum dolor sit amet et dolore magna Lorem ipsum dolor sit amet
+                <div class="col-lg-4">
+                    <div class="box-footer">
+                        <a href="" class="logo-f">
+                            <img src="images/image 541 1.png" alt="">
+                        </a>
+                        <div class="text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            Lorem ipsum dolor sit amet et dolore magna Lorem ipsum dolor sit amet
+                        </div>
+                        <button id="button" class="back-to-top">
+                            <i class="fa fa-angle-up"></i>
+                        </button>
                     </div>
-                    <button id="button" class="back-to-top">
-                        <i class="fa fa-angle-up"></i>
-                    </button>
                 </div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-2 col-12">
                     <div class="title title-left">Kết nối</div>
                     <div class="mxh">
                         <a href="">
@@ -694,16 +794,20 @@
                             Facebook
                         </a>
                         <a href="">
-                            <i class="fa fa-facebook"></i>
+                            <i class="fab fa-google-plus-g"></i>
                             Google
                         </a>
                         <a href="">
-                            <i class="fa fa-facebook"></i>
-                            YOutube
+                            <i class="fab fa-youtube"></i>
+                            Youtube
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                            Instagram
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-2 col-12">
                     <div class="title title-left">Đăng kí nhận tin</div>
                     <div class="text">Lorem Ipsum has been the industry's standard dummy text ever</div>
                     <form action="">
