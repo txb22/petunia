@@ -17,7 +17,21 @@ var swiper = new Swiper(".mySlide", {
         delay: 4000,
     }
 });
-
+var swiper = new Swiper(".mySlideMap", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    }
+    // , autoplay: {
+    //     delay: 2000,
+    // }
+});
 var btn = $('#button');
 
 
